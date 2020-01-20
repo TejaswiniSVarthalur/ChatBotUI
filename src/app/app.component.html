@@ -1,0 +1,28 @@
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <section>
+            <form class="bg-custom">
+                <div *ngFor="let ToMessage of Messages ; let i = index">
+                    <div [ngClass]="i%2==0 ? 'ToMessage' : 'FromMessage'">
+                                    {{ToMessage}}
+                    </div>
+                    </div>
+                    <br>
+                        <br>
+                        <div class="form-group">
+                    <input type="text" class="form-control" [(ngModel)]="inputData" name="inputData">
+                </div>
+                <div>
+                    <button type="button" (click)="sendData()" class="btn">Send</button>
+                </div>
+            </form>
+        </section>
+        </div>
+
+    </div>
+</div>
+
+
+

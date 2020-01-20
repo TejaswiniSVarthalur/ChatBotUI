@@ -1,0 +1,52 @@
+.bg-custom{
+    margin: 5px;
+    padding : 5px;
+}
+input{
+    border: 1px solid purple;
+}
+input:active{
+    border: 1px solid purple;
+}
+button{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+button:hover{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.FromMessage{
+    background-color: purple;
+    border: 1px solid rgb(245, 222, 245);;
+    height: 60px;
+    width: 300px;
+    padding : 5px;
+    margin-left: 100px;
+    border-radius: 15px 15px;
+    color: rgb(245, 222, 245);;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+/* div > div{
+    margin: 5px;
+} */
+
+.ToMessage{
+    background-color: rgb(245, 222, 245);
+    border: 1px solid purple;
+    height: 50px;
+    width: 300px;
+    padding : 5px;
+    border-radius: 15px 15px;
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}

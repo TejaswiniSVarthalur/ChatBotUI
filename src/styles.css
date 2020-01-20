@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+/* body {
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+  } */
+
+  .border{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(102, 33, 33);
+}
